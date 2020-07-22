@@ -1,0 +1,82 @@
+html{
+    min-height: 100%;
+    position: relative;
+}
+
+body{
+    padding-left: 50px;
+    padding-right: 50px;
+    background:linear-gradient(orange,blue) ;
+}
+
+.titulo{
+    background-color: lightblue;
+    padding: 70px;
+    color: white;
+    text-shadow: 2px 1px black;
+    font-size: 30px;
+    font-family: 'Shadows Into Light', cursive;
+    background: linear-gradient(lightblue,blue);
+}
+.barra{
+    padding: 15px;
+    margin-bottom: 100px;
+    background: linear-gradient(rgb(0%, 0%, 30%), rgb(0%, 0%, 60%));
+    
+}
+.barra a{
+    color: whitesmoke;
+    text-decoration: none;
+    padding-left: 8px;
+    font-family: 'Montserrat', sans-serif;
+}
+.barra a:hover{
+    color: red;
+    text-decoration: line-through;
+}
+
+.wallpapers{
+    margin-bottom:200px ;
+    border: 1px solid black;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    float: right;
+    color:whitesmoke;
+    background: linear-gradient(black,red);
+}
+.wallpapers img{
+    width: 300px;
+    height: 200px;
+    display: block;
+}
+.wallpapers img:hover{
+    opacity: 70%;
+    cursor: pointer;
+}
+
+.trailers{
+    border: 1px solid black;
+    border-radius: 8px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    width: 70%;
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+    background: linear-gradient(black,darkblue);
+    color:whitesmoke;
+} 
+.trailers iframe{
+    border-radius: 8px;
+    width: 800px;
+    height: 600px;
+}
+.series{
+    border: 1px solid black;
+    border-radius: 8px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    width: 70%;
+    padding-bottom: 40px;
+} 
+
