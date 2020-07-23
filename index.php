@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="vistas/css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@1&family=Shadows+Into+Light&display=swap" rel="stylesheet"><title>Mis Series HD</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@1&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <title>Mis Series HD</title>
+    <script src="vistas/js/main.js"></script>
 </head>
 <body>
     <div class="titulo">
@@ -30,15 +32,14 @@
     </div>
     <section class="trailers">
         <h2>Trailers</h2>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/O_T1C2vnfwE" 
-            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; 
-            picture-in-picture" allowfullscreen>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/O_T1C2vnfwE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen;>
         </iframe>
     </section>
     <section class="series">
-            <h2>Series Nuevas</h2>
+        <h2>Eligé a tu Pokemón</h2>
+        <input type="number" id="num" placeholder="INGRESA UN NÚMERO">
+        <button onclick="Pokemon();">Buscar</button>
+        <div id="elem"></div>
     </section>
-
 </body>
 </html>
-<script src="vistas/js/main.js"></script>
